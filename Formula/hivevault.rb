@@ -6,8 +6,8 @@
 class Hivevault < Formula
   desc "Shared, never-forgetting memory for every AI session (MCP server, git, CRDT)"
   homepage "https://github.com/mgillr/hivevault"
-  url "https://registry.npmjs.org/hivevault/-/hivevault-0.3.1.tgz"
-  sha256 "42dd2a251790651c98a66050ffa676023ee7be3052b586f565f7679b57891cf9"
+  url "https://registry.npmjs.org/hivevault/-/hivevault-0.3.2.tgz"
+  sha256 "c4fee0f064e7f61c9fc584f9f7e523dbc33f520a5df1fe684168bce22e8f4dd5"
   license "Apache-2.0"
 
   depends_on "git"
