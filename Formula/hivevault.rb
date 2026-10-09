@@ -4,14 +4,14 @@
 # After each npm release, update `url` and `sha256`:
 #   curl -sLo hivevault.tgz "https://registry.npmjs.org/hivevault/-/hivevault-<version>.tgz" && shasum -a 256 hivevault.tgz
 class Hivevault < Formula
-  desc "One shared, never-forgetting memory for every AI session (MCP server, git-backed, CRDT)"
+  desc "Shared, never-forgetting memory for every AI session (MCP server, git, CRDT)"
   homepage "https://github.com/mgillr/hivevault"
   url "https://registry.npmjs.org/hivevault/-/hivevault-0.3.0.tgz"
   sha256 "5a710d6ee6f695752d59845e7b042ba2f9528d58eb33fd1a3a108a3827fed3d4"
   license "Apache-2.0"
 
-  depends_on "node"
   depends_on "git"
+  depends_on "node"
 
   def install
     system "npm", "install", *std_npm_args
